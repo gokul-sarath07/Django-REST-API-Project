@@ -1,23 +1,25 @@
-==> Create Django Project
+# Vernacular.ai Project
+
+## Create Django Project
 django-admin startproject <PROJECT NAME> 
 
-==> Run Server
+## Run Server
 python manage.py runserver
 
-==> Create New App
+## Create New App
 python manage.py startapp <APP NAME>
 
-==> Making Migrations
+## Making Migrations
 python manage.py makemigrations
 python manage.py migrate
 
-==> Create Super-User
+## Create Super-User
 python manage.py createsuperuser
 - Note: Current username and passwork is given below.
  - username: gokul
  - passwork: 123qwerty456
 
-==> To START
+## To START
 - Run Server.
 - go to http://127.0.0.1:8000
 - Choose an API (Room or Age).
