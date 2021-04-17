@@ -19,10 +19,13 @@
  - username: gokul
  - passwork: 123qwerty456
 
-### To START
-- Run Server.
-- go to [http://127.0.0.1:8000](http://127.0.0.1:8000)
+### To Start Server, To Create Docker Image and Docker Container
+- Type `docker-compose up`
+- Docker Image Size: `228.29 MB`
+- After build is complete, go to [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+### Insights
 - Choose an API (Room or Age).
-- Select Form Input to input data. (NEXT "ID" IS 8 FOR BOTH)
-- Select View Output to view output in API View. 
+- Select Form Input to input data. (NEXT "ID" IS 9 FOR BOTH)
+- Select View Output to view output in API View.
 - Note: The database already contains some data. So if you click (Room or Age) output, you can see them in API View.
