@@ -1,8 +1,14 @@
 from rest_framework import serializers
 from .models import RoomRecordInput, RoomRecordOutput, AgeRecordInput, AgeRecordOutput
 
+# =================================== API 1 ====================================
 
 class RoomRecordInputSerializer(serializers.ModelSerializer):
+    """
+    Takes the input data of API 1 and converts it into JSON format.
+    """
+
+    # VARIABLES
     invalid_trigger = serializers.SerializerMethodField('get_invalid_trigger')
     key = serializers.SerializerMethodField('get_key')
     name = serializers.SerializerMethodField('get_name')
@@ -55,7 +61,11 @@ class RoomRecordInputSerializer(serializers.ModelSerializer):
             values.append({"entity_type": "id", "value": val})
         return values
 
+
 class RoomRecordOutputSerializer(serializers.ModelSerializer):
+    """
+    Takes the output data of API 1 and converts it into JSON format.
+    """
     class Meta:
         model = RoomRecordOutput
         fields = ('filled', 'partially_filled', 'trigger', 'parameters')
@@ -63,7 +73,11 @@ class RoomRecordOutputSerializer(serializers.ModelSerializer):
 # =================================== API 2 ====================================
 
 class AgeRecordInputSerializer(serializers.ModelSerializer):
+    """
+    Takes the input data of API 2 and converts it into JSON format.
+    """
 
+    # VARIABLES
     invalid_trigger = serializers.SerializerMethodField('get_invalid_trigger')
     key = serializers.SerializerMethodField('get_key')
     name = serializers.SerializerMethodField('get_name')
@@ -118,7 +132,11 @@ class AgeRecordInputSerializer(serializers.ModelSerializer):
             values.append({"entity_type": "number", "value": val})
         return values
 
+
 class AgeRecordOutputSerializer(serializers.ModelSerializer):
+    """
+    Takes the output data of API 2 and converts it into JSON format.
+    """
     class Meta:
         model = AgeRecordOutput
         fields = ('filled', 'partially_filled', 'trigger', 'parameters')
