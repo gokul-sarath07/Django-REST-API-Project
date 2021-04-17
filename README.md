@@ -1,7 +1,7 @@
 # Vernacular.ai Project
 
 ### To Run Server, To Create Docker Image and Docker Container
-- Type `docker-compose up`
+- Type: `docker-compose up`
 - Docker Image Size: `228.29 MB`
 - After build is complete, go to [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
