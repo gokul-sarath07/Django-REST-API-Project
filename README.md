@@ -1,9 +1,9 @@
 # Vernacular.ai Project
 
 ### To Run Server, To Create Docker Image and Docker Container
-- Type: `docker-compose up`.
-- Docker Image Size: `228.29 MB`.
-- After build is complete, go to [http://127.0.0.1:8000](http://127.0.0.1:8000).
+- Type: `docker-compose up`
+- Docker Image Size: `228.29 MB`
+- After build is complete, Navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000) to view website.
 
 ### Insights
 - Choose an API (Room or Age).
@@ -20,20 +20,20 @@
 ## Commands Used
 
 ### Create Super-User
-- `python manage.py createsuperuser`.
+- `python manage.py createsuperuser`
 - Note: Current username and passwork is given below.
  - username: gokul
  - passwork: 123qwerty456
 
 ### Create Django Project
-- `django-admin startproject <PROJECT NAME>`.
+- `django-admin startproject <PROJECT NAME>`
 
 ### Create New App
-- `python manage.py startapp <APP NAME>`.
+- `python manage.py startapp <APP NAME>`
 
 ### Making Migrations
-- `python manage.py makemigrations`.
-- `python manage.py migrate`.
+- `python manage.py makemigrations`
+- `python manage.py migrate`
 
 
 
