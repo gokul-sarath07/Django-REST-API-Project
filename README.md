@@ -1,5 +1,11 @@
 # Vernacular.ai Project
 
+## Packages Used
+- Django
+- Django Multiselectfield
+- Django Restframework
+- uWSGI
+
 ### To Run Server, To Create Docker Image and Docker Container
 - Run `docker-compose up`
 - Docker Image Size: `228.29 MB`
