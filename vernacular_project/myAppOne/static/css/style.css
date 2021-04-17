@@ -1,0 +1,91 @@
+.room, .age, h1, h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room .btn-info, .age .btn-info {
+  margin-right: 40px;
+}
+
+.room label, .age label {
+  margin-right: 8px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+a {
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  font-size: 18px;
+}
+
+.full-body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room-inner-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.age-full-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.age-inner-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sb-btn {
+  margin-right: 15px;
+}
+
+.age-go-back, .sb-btn, .room-go-back {
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */

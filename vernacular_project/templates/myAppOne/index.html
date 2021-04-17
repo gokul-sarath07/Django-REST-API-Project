@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet"  href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome To Home Page</h1>
+        <h2>Room API (API 1)</h2>
+        <div class="room">
+          <label for="btn-rf">Form Input:</label>
+          <a name="btn-rf" href="/roomform" class="btn btn-info rf" role="button">Room API Form</a>
+          <label for="btn-ro">View Output:</label>
+          <a name="btn-ro" href="/roomrecord" class="btn btn-success ro" role="button">Room API Output</a>
+        </div>
+        <hr class="solid">
+        <h2>Age API (API 2)</h2>
+        <div class="age">
+          <label class="afl" for="btn-af">Form Input:</label>
+          <a name="btn=af" href="/ageform" class="btn btn-info af" role="button">Age API Form</a>
+          <label class="aol" for="btn-ao">View Output:</label>
+          <a name="btn-ao" href="/agerecord" class="btn btn-success ao" role="button">Age API Output</a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
