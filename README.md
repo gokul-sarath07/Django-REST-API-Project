@@ -4,7 +4,6 @@
 - Django
 - Django Multiselectfield
 - Django Restframework
-- uWSGI
 
 ### To Run Server, To Create Docker Image and Docker Container
 - Run `docker-compose up`
