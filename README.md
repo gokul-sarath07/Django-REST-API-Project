@@ -1,4 +1,4 @@
-# Vernacular.ai Project
+# Django REST API Project
 
 ## Packages Used
 - Django
